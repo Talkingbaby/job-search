@@ -1,13 +1,13 @@
 <template>
-  <HelloWorld />
+  <JobTable />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import JobTable from '../components/JobTable'
 
   export default {
     components: {
-      HelloWorld
+      JobTable
     }
   }
 </script>

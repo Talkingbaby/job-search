@@ -16,18 +16,18 @@
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <JobTable />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import JobTable from './components/JobTable'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    JobTable
   },
   data () {
     return {
